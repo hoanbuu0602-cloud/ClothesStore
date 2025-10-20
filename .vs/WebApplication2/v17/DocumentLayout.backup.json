@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\design web\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|DoHoanBuu_FE.csproj|d:\\design web\\webapplication2\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|DoHoanBuu_FE.csproj|solutionrelative:html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|WebApplication2.csproj|D:\\design web\\WebApplication2\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|WebApplication2.csproj|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|WebApplication2.csproj|D:\\design web\\WebApplication2\\javascrip\\scrip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7506A51F-002C-440F-8BA2-3B9986690D5C}|WebApplication2.csproj|solutionrelative:javascrip\\scrip.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\design web\\WebApplication2\\css\\style.css",
+              "RelativeDocumentMoniker": "css\\style.css",
+              "ToolTip": "D:\\design web\\WebApplication2\\css\\style.css",
+              "RelativeToolTip": "css\\style.css",
+              "ViewState": "AgIAACsCAAAAAAAAAAAYwDkCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T08:29:39.734Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\design web\\WebApplication2\\html\\index.html",
+              "RelativeDocumentMoniker": "html\\index.html",
+              "ToolTip": "D:\\design web\\WebApplication2\\html\\index.html",
+              "RelativeToolTip": "html\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-20T08:46:22.122Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "scrip.js",
+              "DocumentMoniker": "D:\\design web\\WebApplication2\\javascrip\\scrip.js",
+              "RelativeDocumentMoniker": "javascrip\\scrip.js",
+              "ToolTip": "D:\\design web\\WebApplication2\\javascrip\\scrip.js",
+              "RelativeToolTip": "javascrip\\scrip.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-20T08:30:13.653Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
