@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Quản lý đơn hàng";
+}
+<link href="~/styles/order-admin.css" rel="stylesheet" />
+<link href="~/styles/admin.css" rel="stylesheet" />
+
+<div class="admin-content">
+
+    <h1>🧾 Quản lý đơn hàng</h1>
+
+    <table class="admin-table">
+        <thead>
+            <tr>
+                <th>Mã đơn</th>
+                <th>Khách hàng</th>
+                <th>Số điện thoại</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="orderTableBody"></tbody>
+    </table>
+
+</div>
+
+<div class="popup" id="orderPopup">
+    <div class="popup-content wide">
+        <h2>Chi tiết đơn hàng</h2>
+        <div id="orderDetail"></div>
+
+        <button id="closeOrderPopup" class="cancel-btn">Đóng</button>
+    </div>
+</div>
+
+<script src="~/Scripts/order-admin.js"></script>
