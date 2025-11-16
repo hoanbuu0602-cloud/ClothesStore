@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+@{
+    ViewBag.Title = "Giỏ hàng - HB Fashion";
+}
+
+<link href="~/styles/All.css" rel="stylesheet" />
+<link href="~/styles/cart.css" rel="stylesheet" />
+
+<header class="cart-header">
+    <h1>🛒 Giỏ hàng của bạn</h1>
+    <a href="/Home/Store" class="back-btn">⬅ Tiếp tục mua sắm</a>
+</header>
+<body>
+<main class="cart-container">
+
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+                <th>SL</th>
+                <th>Tổng</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+
+        <tbody id="cart-body">
+            <!-- Render bằng JS -->
+        </tbody>
+    </table>
+
+    <div class="cart-summary">
+        <h3>Tổng cộng: <span id="total-price">0₫</span></h3>
+
+        <button id="go-order" class="gold-btn">Đặt hàng ngay</button>
+    </div>
+</main>
+<header class="order-header">
+    <h1>🧾 Xác nhận đơn hàng</h1>
+    <a href="/Home/Cart" class="back-btn">⬅ Quay lại giỏ hàng</a>
+</header>
+
+<main class="checkout-container">
+
+    <section class="order-summary">
+        <h2>📦 Sản phẩm đặt mua</h2>
+        <ul id="order-items"></ul>
+
+        <h3 class="total-line">
+            Tổng thanh toán:
+            <span id="order-total" class="gold-text">0₫</span>
+        </h3>
+    </section>
+
+    <!-- FORM ĐẶT HÀNG -->
+    <section class="checkout-form">
+        <h2>📝 Thông tin khách hàng</h2>
+
+        <form id="orderForm">
+
+            <div class="form-group">
+                <label>Họ và tên:</label>
+                <input type="text" id="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label>Số điện thoại:</label>
+                <input type="tel" id="phone" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="form-group">
+                <label>Địa chỉ giao hàng:</label>
+                <textarea id="address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Phương thức thanh toán:</label>
+                <select id="payment" required>
+                    <option value="">-- Chọn phương thức --</option>
+                    <option value="cod">🚚 Thanh toán khi nhận hàng (COD)</option>
+                    <option value="bank">🏦 Chuyển khoản ngân hàng</option>
+                    <option value="momo">💗 Ví MoMo</option>
+                    <option value="vnpay">💳 VNPay</option>
+                    <option value="zalopay">💙 ZaloPay</option>
+                </select>
+            </div>
+
+            <button type="submit" class="confirm-btn">Xác nhận đặt hàng</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- POPUP -->
+<div id="successPopup" class="popup">
+    <div class="popup-content">
+        <h3>🎉 Đặt hàng thành công!</h3>
+        <p>Cảm ơn bạn đã mua sắm tại <strong>HB Fashion</strong> 💛</p>
+        <button onclick="window.location.href='/Home/Store'">Về trang sản phẩm</button>
+    </div>
+</div>
+</body>
+

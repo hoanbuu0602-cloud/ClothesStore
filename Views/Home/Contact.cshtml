@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập / Đăng ký - HB Fashion Shop</title>
+    <link href="~/styles/Login.css" rel="stylesheet" />
+    <link href="~/styles/All.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-box">
+            <h2 id="formTitle">Đăng nhập</h2>
+
+            <!-- Form đăng nhập -->
+            <form id="loginForm" class="form active">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Tên đăng nhập</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <button type="submit" class="btn">Đăng nhập</button>
+                <p class="switch">Chưa có tài khoản? <a href="#" id="toRegister">Đăng ký</a></p>
+            </form>
+
+            <!-- Form đăng ký -->
+            <form id="registerForm" class="form">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Tên người dùng</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <button type="submit" class="btn">Đăng ký</button>
+                <p class="switch">Đã có tài khoản? <a href="#" id="toLogin">Đăng nhập</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="~/Scripts/Login scrips.js"></script>
+    <script src="~/Scripts/Main.js"></script>
+</body>
+</html>
